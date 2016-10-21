@@ -22,6 +22,7 @@
 			$('#home').click();
 		}
 
+		/* to rip benefits: guda.github.io/eduko?target=tab31 */
 	}, 1000);
 
 	/************** Toggle Menu *********************/
