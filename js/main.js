@@ -5,7 +5,7 @@
 	var document = window.document;
 
 
-	/************** Show Home page after 3 seconds *********************/
+	/************** Show Home page after a seconds if not requested otherwise by passing url aprameters *********************/
 	setTimeout(function() {
 		var GET = {};
 		var query = window.location.search.substring(1).split("&");
@@ -17,10 +17,10 @@
 			}
 		
 		if(GET.target != null){
-			$('#'+GET.target).click();
-			console.log('radi, radi...');
+			$('#'+GET.target).addClass("animated fadeInDown").show();
+			console.log(GET.target);
 		}else{
-			$('#home').click();
+			$('#menu-0').addClass("animated fadeInDown").show();
 		}
 
 		/* to rip benefits: guda.github.io/eduko?target=tab31 */
