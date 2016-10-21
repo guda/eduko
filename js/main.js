@@ -18,6 +18,7 @@
 		
 		if(GET.target != null){
 			$('#'+GET.target).click();
+			console.log('radi, radi...');
 		}else{
 			$('#home').click();
 		}
