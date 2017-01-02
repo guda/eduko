@@ -17,10 +17,10 @@
 			}
 		
 		if(GET.target != null){
-			$('#'+GET.target).addClass("animated fadeInDown").show();
+			$("#menu-"+GET.target).addClass("animated fadeInDown").show();
 			console.log(GET.target);
 		}else{
-			$('#menu-0').addClass("animated fadeInDown").show();
+			$("#menu-0").addClass("animated fadeInDown").show();
 		}
 
 		/* to rip benefits: guda.github.io/eduko?target=tab31 */
