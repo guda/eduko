@@ -23,7 +23,7 @@
 			$("#menu-0").addClass("animated fadeInDown").show();
 		}
 
-		/* to rip benefits: guda.github.io/eduko?target=tab31 */
+		/* to rip benefits: https://guda.github.io/eduko/?target=2 */
 	}, 1000);
 
 	/************** Toggle Menu *********************/
