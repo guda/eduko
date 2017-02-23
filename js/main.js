@@ -105,13 +105,5 @@
 		$('[data-rel="lightbox"]').lightbox();
 	});
 
-	/***************************** New Application for External Courses *****************************/
-	function openNewApplicationForm() {
-        document.write(unescape("%3Cscript src='http" +  (document.location.protocol == 'https:' ? 's' : '') + "://www.coffeecup.com/api/sdrive/forms/form.js?name=prijava-instrukcije%26slug=283822%26height=2290%26crossdomains=true%26rand=" + Math.floor( Math.random() * 1000000000 ) + "' type='text/javascript'%3E%3C/script%3E"));
-    }
-
-
-
-
 })(window, jQuery);
 
